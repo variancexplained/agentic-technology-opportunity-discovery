@@ -12,7 +12,7 @@
 # URL        : Enter URL in Workspace Settings                                                     #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Saturday July 4th 2026 01:40:07 pm                                                  #
-# Modified   : Saturday July 4th 2026 02:53:18 pm                                                  #
+# Modified   : Saturday July 4th 2026 03:02:55 pm                                                  #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2026 John James                                                                 #
@@ -42,7 +42,7 @@ repository               : "variancexplained/agentic-technology-opportunity-disc
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/assets/images/jjames.jpg"
+  avatar           : "jjames.jpg"
   name             : "John James"
   pronouns         : # example: "she/her"  
   bio              : "Data Scientist, Applied AI Researcher, and Author."
