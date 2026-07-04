@@ -1,0 +1,24 @@
+# Core agentic AI dependencies. Prune what you don't need.
+
+# Agent orchestration
+langgraph>=0.2.0
+langgraph-checkpoint-postgres>=2.0.0
+
+# LLM clients (pick what you use)
+anthropic>=0.40.0
+
+# MCP (optional, uncomment if you expose tools via MCP servers)
+# fastmcp>=2.0.0
+
+# Database
+psycopg[binary,pool]>=3.2.0
+
+# Data models
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+
+# Embeddings (optional, for dedup or semantic search)
+# sentence-transformers>=3.0.0
+
+# Utilities
+python-dotenv>=1.0.0
