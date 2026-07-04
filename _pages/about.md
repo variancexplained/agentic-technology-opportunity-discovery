@@ -6,13 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Agentic Technology Opportunity Discovery: Theory and Practice
 
-## 1 Abstract
+## Abstract
 
 Recent advances in foundation models, retrieval-augmented generation, structured reasoning, and multi-agent orchestration have created the technical preconditions for reframing Technology Opportunity Discovery (TOD) as an agentic reasoning problem. Traditional TOD research, grounded in bibliometric analysis, patent citation networks, morphology analysis, knowledge graphs, and topic modeling, has produced valuable descriptive and predictive insights but remains constrained by static snapshots, heavy reliance on post-hoc expert interpretation, and limited capacity for iterative, goal-directed, cross-domain synthesis at scale. This prospectus argues that agentic AI systems, autonomous agents capable of planning, tool use, persistent memory, reflective critique, and multi-perspective collaboration, constitute a fundamental shift in the epistemology and practice of TOD. The proposed research program develops an original conceptual framework (the Agentic Technology Opportunity Discovery Framework, ATODF), prototypes and rigorously evaluates agentic TOD systems against established baselines, and advances evaluation methodologies suited to forward-looking discovery tasks. Drawing on design science research, experimental computer science, and qualitative innovation studies, the agenda addresses six interlocking research questions concerning system design, performance differentials, cognitive mechanisms, temporal relevance, evaluation frameworks, and domain contingencies. Expected contributions include theoretical integration of AI agency with innovation studies, new methodological protocols and benchmarks for agentic foresight, and practical tools that shift technology intelligence from periodic reporting to continuous, evidence-grounded, prescriptive narration. 
 
-# 1. Introduction
+## Introduction
 
 The identification of technological opportunities, latent recombinations, vacancies, convergences, or customer-aligned applications that can create new value, has long been central to innovation strategy, R&D portfolio decisions, national technology policy, and entrepreneurial activity. For decades, the field of Technology Opportunity Discovery (TOD) has relied on a relatively stable methodological repertoire: expert panels and Delphi studies, bibliometric mapping of scientific and patent literature, citation and co-classification network analysis, morphological decomposition of technological functions, and, more recently, machine learning pipelines operating on large-scale patent and publication corpora.
 
@@ -22,7 +21,7 @@ The emergence of large language models (LLMs) with reliable tool-calling, long-c
 
 This prospectus contends that these developments justify treating Agentic Technology Opportunity Discovery as a distinct and consequential research direction within the broader TOD discipline. The proposed program of research will (a) synthesize existing scholarship to locate the precise theoretical and methodological gaps, (b) articulate an original conceptual framework grounded in both innovation studies and contemporary AI agent research, (c) design and empirically evaluate prototype agentic systems, and (d) develop evaluation strategies and benchmarks appropriate to the forward-looking, partially unverifiable nature of opportunity discovery. The ultimate aim is to advance both the scholarly understanding of how technological opportunities are or can be recognized and the practical capacity of organizations and policymakers to navigate accelerating technological change.
 
-# 2. Research Motivation
+## Research Motivation
 
 Three converging trends motivate the proposed research.
 
@@ -34,7 +33,7 @@ Third, the technical substrate for a new approach now exists. Foundation models 
 
 Together, these trends suggest that agentic AI does not merely augment existing TOD methods but potentially reconfigures the underlying model of discovery itself: from static analysis plus expert judgment to dynamic, multi-perspective, evidence-accumulating inquiry that can operate continuously and adaptively.
 
-# 3. Research Problem
+## Research Problem
 
 Despite the proliferation of computational TOD methods and the recent appearance of LLM-based prototypes, the field lacks a coherent research program that treats agency as a first-class object of study. Existing work remains largely method-driven: researchers propose a new pipeline (deep learning + knowledge graph, link prediction on heterogeneous graphs, LLM topic modeling plus trend testing) and demonstrate improved performance on proxy tasks or case studies within a single domain. There is little cumulative theory development concerning how different forms and degrees of agency alter what opportunities can be discovered, by whom, with what confidence, and at what cost in attention or validation effort.
 
@@ -52,7 +51,7 @@ Consequently, several interrelated problems persist:
 
 The research problem, in short, is to move from ad-hoc application of increasingly powerful AI tools to a systematic, theoretically grounded, and methodologically rigorous investigation of agentic TOD as a socio-technical practice.
 
-# 4. State of the Field
+## State of the Field
 
 Technology Opportunity Discovery has evolved through several overlapping phases over the past three decades, documented primarily in the journal *Technological Forecasting and Social Change* and in the scientometrics literature.
 
@@ -68,11 +67,11 @@ Across this literature, several patterns are evident. First, the dominant data s
 
 The most recent LLM-infused work represents a qualitative step: outputs are more narrative, more immediately usable by non-specialists, and capable of incorporating temporal dynamics and cross-topic relationships in a single generative pass. However, these systems are still largely non-agentic: they execute fixed pipelines or single-turn prompting rather than maintaining goals, iterating on intermediate results, invoking external tools adaptively, or engaging in multi-agent deliberation. The transition from “LLM-augmented TOD” to “agentic TOD” remains largely unexplored in the scholarly literature.
 
-# 5. Research Gap
+## Research Gap
 
 The gap is both theoretical and methodological. Theoretically, the field lacks frameworks that treat artificial agency as an endogenous component of the discovery process rather than an external computational aid. We do not yet have well-specified accounts of how different agent architectures mediate between raw technical signals and recognized opportunities, nor how agency interacts with established constructs such as absorptive capacity, technological paradigms, or entrepreneurial alertness. Methodologically, shared benchmarks, standardized protocols for comparative evaluation of agentic versus non-agentic systems, and evidence on the performance characteristics (novelty, feasibility, actionability, robustness to domain shift) of agentic approaches are limited. Without this research infrastructure, cumulative theory building, rigorous comparative evaluation, and reproducible scientific progress remain difficult, limiting the field's ability to establish whether, when, and why agentic approaches outperform conventional discovery methods.
 
-# 6. Research Objectives
+## Research Objectives
 
 The program pursues four interlocking objectives:
 
@@ -84,7 +83,7 @@ The program pursues four interlocking objectives:
 
 4. To generate empirical and theoretical insights into the conditions under which agentic approaches outperform, complement, or transform existing TOD practices, and into the organizational and governance requirements for their effective deployment.
 
-# 7. Research Questions
+## Research Questions
 
 The following six questions structure the empirical and theoretical work:
 
@@ -100,7 +99,7 @@ RQ5. What evaluation frameworks and metrics are appropriate and defensible for a
 
 RQ6. How do the relative advantages of agentic TOD vary across technological domains differing in data richness, maturity stage, convergence intensity, or regulatory embeddedness?
 
-# 8. Theoretical Foundations
+## Theoretical Foundations
 
 The proposed framework draws on four intellectual streams.
 
@@ -114,7 +113,7 @@ From artificial intelligence and cognitive systems: architectures for tool-augme
 
 The synthesis treats TOD as a form of distributed socio-technical cognition in which artificial agents increasingly participate as first-class reasoners rather than mere feature extractors or rankers.
 
-# 9. Proposed Conceptual Framework
+## Proposed Conceptual Framework
 
 The Agentic Technology Opportunity Discovery Framework (ATODF) models TOD as an iterative, multi-phase socio-technical process augmented by artificial agency.
 
@@ -150,7 +149,7 @@ P5. Performance advantages of agentic over non-agentic methods will be largest i
 
 The framework is intentionally architecture-agnostic at the conceptual level while providing clear guidance for operationalization in specific agent implementations.
 
-# 10. Research Methodology
+## Research Methodology
 
 The program adopts a Design Science Research (DSR) orientation (Hevner et al.; Peffers et al.) situated within an interdisciplinary methodological tradition spanning AI, innovation studies, and computational social science. DSR is appropriate because the core contribution is an artifact, the conceptual framework instantiated in prototype systems, whose utility must be demonstrated through rigorous evaluation while simultaneously generating theoretical insight.
 
@@ -182,7 +181,7 @@ Phase 3 (Comparative Evaluation): Controlled experiments comparing the prototype
 
 **Anticipated Limitations**: Dependence on the current frontier of LLM capabilities and associated costs (mitigated by multi-model strategies and open-source alternatives); inherent difficulty of establishing contemporaneous ground truth for novelty; computational and API-cost constraints on full-corpus experiments (addressed via stratified sampling and focused domain studies); potential rapid obsolescence of specific architectural choices (addressed by emphasis on principles and modular design).
 
-# 11. Evaluation Strategy
+## Evaluation Strategy
 
 Evaluation is conceived as multi-level and ongoing rather than a single terminal test.
 
@@ -196,27 +195,27 @@ Evaluation is conceived as multi-level and ongoing rather than a single terminal
 
 Success thresholds should be defined ex ante using appropriate evaluation criteria (e.g., mean expert-rated actionability improvement of at least 0.5 points on a 5-point scale, or equivalent performance at substantially lower human time cost). Negative or null results on specific propositions will be treated as equally valuable contributions, informing boundary conditions and future design iterations.
 
-# 12. Expected Contributions to Theory
+## Expected Contributions to Theory
 
 The program will contribute to theory in three primary ways. First, it will articulate and test a new conceptual model that positions artificial agency as an active participant in technological opportunity recognition, thereby extending recombination, convergence, and opportunity-recognition theories into the socio-technical-AI regime. Second, it will develop a typology of discovery mechanisms differentiated by the form and degree of agency involved, clarifying which classes of opportunity (e.g., distant analogical recombinations, rapidly evolving application spaces) are disproportionately enabled or enhanced by agentic processes. Third, it will generate propositions and empirical evidence concerning the organizational and cognitive conditions under which human–agent ensembles outperform either alone, contributing to broader debates on human-AI collaboration in knowledge work and strategic decision-making.
 
-# 13. Expected Contributions to Methodology
+## Expected Contributions to Methodology
 
 Methodological contributions include: (a) an operationalizable conceptual framework and associated measurement rubrics that can be adopted or adapted by subsequent researchers; (b) open-source prototype implementations and evaluation harnesses that lower the barrier to rigorous comparative work; (c) protocols for constructing TOD-specific benchmarks that balance ex-post recoverability with forward-looking realism; and (d) guidance on mixed-methods evaluation designs suitable for generative and agentic AI systems in innovation contexts, including strategies for handling partial unverifiability and for integrating reasoning-trace analysis with outcome metrics.
 
-# 14. Expected Contributions to Practice
+## Expected Contributions to Practice
 
 On the practice side, the research will deliver: validated prototype tools that organizations can deploy or adapt for continuous technology intelligence; evidence-based guidelines for configuring agency levels, human oversight, and integration with existing technology roadmapping or stage-gate processes; and a clearer understanding of the trust, interpretability, and governance requirements that determine whether advanced AI capabilities are actually used in high-stakes opportunity decisions. Over the longer term, successful outcomes could shift the default mode of technology foresight from episodic, expert-heavy exercises to continuous, evidence-rich, agent-augmented monitoring and narration, potentially improving both the speed and quality of strategic response to technological change.
 
-# 15. Limitations
+## Limitations
 
 Any single research program necessarily operates within constraints. The proposed agenda is scoped to public or commercially accessible technical and market signals; it does not address classified or proprietary internal data environments. Evaluation of true long-term impact is necessarily truncated by project timelines. The rapid evolution of foundation models and agent tooling means that specific implementation choices will date quickly; the emphasis on modular design and principle-level contributions is intended to mitigate this. Generalizability beyond the studied domains cannot be assumed a priori and will require subsequent replication. Finally, the program focuses on discovery processes rather than on the downstream organizational or policy decisions that determine whether discovered opportunities are acted upon; complementary research on adoption, portfolio decision-making, and implementation will be required to realize full value.
 
-# 16. Future Research Directions
+## Future Research Directions
 
 Several extensions naturally follow from the core program. One is the incorporation of multi-modal perception, analysis of patent drawings, prototype images, experimental data visualizations, or physical artifact descriptions, via vision-language agents. Another is tighter integration with simulation environments or even automated experimentation platforms, enabling agents not only to propose opportunities but to design and, where feasible, execute low-cost validation experiments. A third is the development of personalized or organization-specific TOD agents that internalize a firm’s existing technological portfolio, strategic priorities, and risk tolerances (extending the capability-centric tradition of Yoon et al.). Fourth, comparative and cross-cultural studies could examine how agentic TOD performs or is governed in different national or sectoral innovation systems. Fifth, dedicated attention to the ethics and governance of autonomous discovery, including bias auditing, dual-use screening, and mechanisms for maintaining meaningful human control, will grow in importance as capabilities advance. Finally, the framework and prototypes developed here can serve as a foundation for research on agentic approaches to adjacent foresight tasks: technology roadmapping, competitive intelligence, and mission-oriented innovation policy design.
 
-# 17. References
+## References
 
 Bergek, A., Jacobsson, S., Carlsson, B., Lindmark, S., & Rickne, A. (2008). Analyzing the functional dynamics of technological innovation systems: A scheme of analysis. *Research Policy, 37*(3), 407–429.
 
