@@ -1,350 +1,250 @@
-# Agentic Technology Opportunity Discovery: A New Paradigm for Systematic Exploration of Emerging Technological Frontiers
-
----
+# Agentic Technology Opportunity Discovery: Theory and Practice
 
 ## 1 Abstract
 
-Technology opportunity discovery (TOD) has for decades drawn on bibliometrics, patent analysis, scientometrics, and expert foresight to identify nascent technological possibilities. Despite methodological sophistication, existing approaches remain largely retrospective and passive: they surface signals from historical data rather than actively probing the unknown. Recent advances in agentic artificial intelligence-foundation models, retrieval-augmented generation, tool use, multi-agent reasoning, and autonomous planning-introduce a qualitatively different capability: goal-directed, reasoning-driven exploration of technology landscapes. This prospectus argues that these advances constitute a new paradigm, *Agentic Technology Opportunity Discovery*, in which AI systems serve not merely as analytical instruments but as collaborative discovery agents that hypothesize, search, critique, and refine technological opportunities in dialogue with human experts. Drawing on innovation management, computational social science, and AI research, the prospectus synthesizes the TOD literature, identifies critical theoretical and methodological gaps, and proposes a conceptual framework built on recombinant innovation theory, bounded rationality, and the agentic turn in AI. Six research questions are formulated to guide empirical investigation, and a multi-method research design combining design science, controlled experiments, and expert evaluation is elaborated. The agenda aims to advance theory on opportunity recognition, extend the methodological toolkit of TOD, and provide actionable principles for building and assessing agentic discovery systems. The resulting research program is positioned to contribute to innovation management, AI-augmented science, and strategic technology intelligence in both academia and practice.
+Recent advances in foundation models, retrieval-augmented generation, structured reasoning, and multi-agent orchestration have created the technical preconditions for reframing Technology Opportunity Discovery (TOD) as an agentic reasoning problem. Traditional TOD research, grounded in bibliometric analysis, patent citation networks, morphology analysis, knowledge graphs, and topic modeling, has produced valuable descriptive and predictive insights but remains constrained by static snapshots, heavy reliance on post-hoc expert interpretation, and limited capacity for iterative, goal-directed, cross-domain synthesis at scale. This prospectus argues that agentic AI systems—autonomous agents capable of planning, tool use, persistent memory, reflective critique, and multi-perspective collaboration—constitute a fundamental shift in the epistemology and practice of TOD. The proposed research program develops an original conceptual framework (the Agentic Technology Opportunity Discovery Framework, ATODF), prototypes and rigorously evaluates agentic TOD systems against established baselines, and advances evaluation methodologies suited to forward-looking discovery tasks. Drawing on design science research, experimental computer science, and qualitative innovation studies, the agenda addresses six interlocking research questions concerning system design, performance differentials, cognitive mechanisms, temporal relevance, evaluation frameworks, and domain contingencies. Expected contributions include theoretical integration of AI agency with innovation studies, new methodological protocols and benchmarks for agentic foresight, and practical tools that shift technology intelligence from periodic reporting to continuous, evidence-grounded, prescriptive narration. 
 
----
+# 1. Introduction
 
-## 2 Introduction
+The identification of technological opportunities—latent recombinations, vacancies, convergences, or customer-aligned applications that can create new value—has long been central to innovation strategy, R&D portfolio decisions, national technology policy, and entrepreneurial activity. For decades, the field of Technology Opportunity Discovery (TOD) has relied on a relatively stable methodological repertoire: expert panels and Delphi studies, bibliometric mapping of scientific and patent literature, citation and co-classification network analysis, morphological decomposition of technological functions, and, more recently, machine learning pipelines operating on large-scale patent and publication corpora.
 
-Technological change is a central engine of economic growth, societal transformation, and competitive advantage. The ability to recognize emerging technological opportunities before they become obvious-before patent landscapes saturate, before dominant designs crystallize, before market expectations converge-confers decisive advantages on firms, research institutions, and nations. This imperative has given rise to the interdisciplinary field of Technology Opportunity Discovery (TOD), which seeks to systematically identify, assess, and prioritize latent technological possibilities using formal analytical methods.
+These approaches have yielded robust findings on knowledge recombination dynamics, the detection of technological vacancies and outliers, and the mapping of convergence trajectories, particularly in domains such as information technology, biotechnology, and energy systems. Yet they share structural limitations. Most are fundamentally retrospective or cross-sectional: they analyze historical data to surface patterns whose forward relevance must still be interpreted by human experts. They scale poorly to the exponential growth in technical documentation. They struggle with distant analogies and tacit judgment that experienced technologists bring to opportunity recognition. And they produce outputs—maps, clusters, ranked lists—that often require substantial additional labor to translate into actionable strategic intelligence or investment theses.
 
-TOD has evolved substantially over the past three decades. Early work in the 1990s formalized technology opportunity analysis through bibliometric scanning and expert judgment (Porter & Detampel, 1995). The subsequent proliferation of patent data, publication databases, and computational techniques expanded the toolkit: co-citation networks, semantic analysis, topic modeling, and machine learning became standard instruments for mapping technology spaces and detecting anomalous signals (Lee et al., 2009; Yoon & Park, 2005; Daim et al., 2006). In the last decade, the field has embraced increasingly sophisticated graph-based and deep learning methods, yet its fundamental orientation has remained largely unchanged: TOD is conceived as a problem of pattern recognition in historical data, where the analyst’s role is to specify queries, choose indicators, and interpret outputs.
+The emergence of large language models (LLMs) with reliable tool-calling, long-context reasoning, retrieval augmentation, and multi-agent coordination capabilities changes the design space. What was previously a labor-intensive analytical and interpretive exercise can now be reimagined as a dynamic, goal-directed, socio-technical process in which artificial agents perceive heterogeneous signals, deliberate through structured and generative reasoning, act by producing evidence-linked opportunity artifacts, and learn from feedback or new data. Early experiments with LLM-augmented topic modeling and narrative generation of promising concepts (e.g., DiTTO-LLM, prescriptive technology intelligence frameworks) demonstrate feasibility but remain largely sequential pipelines rather than truly agentic systems.
 
-Concurrently, artificial intelligence has undergone a structural shift. The emergence of large language models (LLMs), retrieval-augmented generation (RAG), autonomous tool-using agents, and multi-agent reasoning architectures has moved AI beyond pattern matching toward systems that can plan, decompose goals, execute chains of reasoning, seek out new information, and reflect on their own outputs. This shift-often termed *agentic AI*-enables machines to act not simply as search engines or classifiers but as proactive participants in knowledge-intensive processes. It invites a fundamental rethinking of TOD: What if technology opportunity discovery could be reframed as an *agentic reasoning problem*, where AI systems autonomously formulate hypotheses about unexploited technological recombinations, gather evidence from heterogeneous sources, argue for or against their viability, and iteratively refine their conjectures in concert with human experts?
+This prospectus contends that these developments justify treating Agentic Technology Opportunity Discovery as a distinct and consequential research direction within the broader TOD discipline. The proposed program of research will (a) synthesize existing scholarship to locate the precise theoretical and methodological gaps, (b) articulate an original conceptual framework grounded in both innovation studies and contemporary AI agent research, (c) design and empirically evaluate prototype agentic systems, and (d) develop evaluation strategies and benchmarks appropriate to the forward-looking, partially unverifiable nature of opportunity discovery. The ultimate aim is to advance both the scholarly understanding of how technological opportunities are or can be recognized and the practical capacity of organizations and policymakers to navigate accelerating technological change.
 
-This prospectus develops precisely that vision. It argues that agentic AI represents a new paradigm for TOD, distinct in its underlying logic from traditional bibliometric or forecasting approaches. The argument is constructed through a systematic synthesis of the existing TOD literature, identification of unresolved theoretical and methodological gaps, and formulation of an original conceptual framework and research agenda. The document is structured to move from the established state of the field to the proposed frontier: Section 2 motivates the research, Section 3 frames the research problem, Section 4 presents a comprehensive review of TOD, Section 5 identifies the research gap, Section 6 states objectives, Section 7 proposes research questions, Section 8 establishes theoretical foundations, Section 9 develops the conceptual framework, Section 10 details methodology and evaluation, Section 11 outlines expected contributions, and Section 12 acknowledges limitations and future directions.
+# 2. Research Motivation
 
-The intended contribution is both conceptual and empirical. Conceptually, the prospectus establishes agentic TOD as a distinct category of discovery activity, characterized by autonomous goal-setting, active information seeking, recursive hypothesis refinement, and collaborative reasoning. Empirically, it outlines a rigorous research program to design, build, and evaluate agentic TOD systems, generating evidence on their effectiveness relative to conventional methods and advancing our understanding of how human and machine intelligence can jointly enlarge the technology opportunity set.
+Three converging trends motivate the proposed research.
 
----
+First, the sheer volume and velocity of technical information have outstripped traditional analytical capacities. Global patent filings exceed three million annually; scientific output continues its exponential trajectory. Manual or even conventional computational scanning cannot keep pace with convergence across domains (artificial intelligence with materials science, biology with quantum sensing, climate technologies with every sector). Organizations that rely on periodic technology intelligence reports risk systematic blind spots.
 
-## 3 Research Motivation
+Second, the economic and strategic stakes of timely opportunity recognition have risen. Firms in fast-moving sectors compete on the ability to identify and commit to promising technological trajectories before competitors or before windows close. Venture investors and corporate venturing units seek signals that are both novel and de-risked by evidence. National governments and mission-oriented agencies require foresight that informs investment in critical technologies without being captured by incumbent interests or hype cycles. The cost of missed or misidentified opportunities—measured in foregone growth, stranded R&D, or competitive disadvantage—is substantial.
 
-Three converging trends motivate this research agenda. First, the complexity and pace of technological change have increased the cognitive demands on human analysts. Technology landscapes now span millions of patents, papers, preprints, technical standards, startup profiles, and regulatory filings. The recombination of knowledge across formerly disparate domains-synthetic biology and machine learning, materials science and quantum computing-is widely recognized as a primary source of breakthrough innovation (Fleming, 2001; Schumpeter, 1934). Yet the combinatorial explosion of possible technological recombinations far exceeds the evaluative capacity of individual experts or even research teams. Existing computational tools partially address this by filtering and visualizing data, but they leave the core intellectual labor-formulating plausible opportunity hypotheses, weighing contradictory evidence, and synthesizing insights-to humans. There is a growing recognition that more intelligent, autonomous support is needed.
+Third, the technical substrate for a new approach now exists. Foundation models exhibit emergent capabilities in analogical reasoning, multi-step planning, tool orchestration, and self-critique when embedded in agent architectures. Retrieval systems can ground generation in millions of documents with verifiable provenance. Multi-agent frameworks allow specialization and adversarial or collaborative deliberation (technical feasibility agent, market signal agent, prior-art and novelty critic, strategic fit evaluator). These capabilities enable forms of discovery—iterative hypothesis refinement, dynamic knowledge-graph maintenance, simulation of adoption scenarios, cross-domain bridging at scale—that were previously the exclusive province of scarce human expertise or prohibitively expensive expert panels.
 
-Second, recent capabilities of AI systems have moved beyond supervised classification and prediction into the realm of autonomous exploration. Foundation models trained on scientific and technical corpora exhibit a degree of fluency in domain knowledge that was previously unattainable (Taylor et al., 2022). When coupled with retrieval and tool-use capabilities, they can access up-to-date information, perform complex analyses, and maintain coherent lines of inquiry over multiple steps. Multi-agent architectures further allow systems to simulate critical discourse, with different agents playing the roles of proposer, critic, evidence gatherer, and integrator (Li et al., 2023; Park et al., 2023). These developments suggest that an AI system can be assigned a high-level technology discovery goal and then autonomously generate, test, and refine opportunity candidates-a possibility that demands systematic study.
+Together, these trends suggest that agentic AI does not merely augment existing TOD methods but potentially reconfigures the underlying model of discovery itself: from static analysis plus expert judgment to dynamic, multi-perspective, evidence-accumulating inquiry that can operate continuously and adaptively.
 
-Third, a significant gap persists between the TOD literature and the agentic AI literature. TOD scholars have long acknowledged the limits of purely data-driven methods, calling for greater incorporation of reasoning, analogical thinking, and causal models (Rotolo et al., 2015). The emerging AI community has demonstrated prototypes of autonomous research agents in domains like chemistry, biology, and materials science (Boiko et al., 2023; Bran et al., 2024), but these efforts focus on experimental laboratory automation rather than early-stage technology opportunity discovery in a broad strategic sense. The intersection remains largely unexplored, representing a fertile ground for interdisciplinary contribution. Addressing this gap promises not only to enhance TOD practice but also to deepen theoretical understanding of how opportunity recognition processes can be augmented-and perhaps fundamentally altered-by agentic AI.
+# 3. Research Problem
 
----
+Despite the proliferation of computational TOD methods and the recent appearance of LLM-based prototypes, the field lacks a coherent research program that treats agency as a first-class object of study. Existing work remains largely method-driven: researchers propose a new pipeline (deep learning + knowledge graph, link prediction on heterogeneous graphs, LLM topic modeling plus trend testing) and demonstrate improved performance on proxy tasks or case studies within a single domain. There is little cumulative theory development concerning how different forms and degrees of agency alter what opportunities can be discovered, by whom, with what confidence, and at what cost in attention or validation effort.
 
-## 4 Research Problem
+Consequently, several interrelated problems persist:
 
-The central research problem is twofold. First, there is no established theoretical account of how agentic AI systems transform technology opportunity discovery processes beyond incremental improvements in efficiency or recall. Existing theories of opportunity recognition-such as Kirznerian alertness, search and recombination, and effectuation-were developed for human entrepreneurs and organizations (Kirzner, 1997; Shane, 2000). They do not address the division of cognitive labor between autonomous AI agents and human decision-makers in the context of technology identification. Without such a theoretical frame, it remains unclear what novel discovery behaviors agentic AI enables, how its outputs should be evaluated, and under what conditions it yields advantage.
+- **Epistemological**: How should we conceptualize the “discovery” of an opportunity when part of the process is performed by non-human agents whose reasoning traces can be inspected but whose generative mechanisms remain partially opaque?
 
-Second, there is no systematic empirical evidence comparing agentic TOD approaches against established methods using rigorous, reproducible benchmarks. Isolated demonstrations exist-e.g., LLMs proposing novel material compounds or identifying drug repurposing candidates-but these studies typically do not operate within a TOD framework with proper baselines, validity checks, and evaluation metrics derived from innovation management scholarship. The research program proposed here directly addresses this lacuna.
+- **Design**: What architectural choices—single versus multi-agent, depth of tool integration, memory and reflection mechanisms, human-in-the-loop protocols—maximize discovery quality while preserving verifiability and controllability?
 
-The problem statement, therefore, is: *To what extent does agentic AI constitute a fundamentally new paradigm for technology opportunity discovery, and what theoretical models, design principles, and evaluation frameworks are needed to advance this paradigm?*
+- **Evaluative**: By what criteria and through what procedures should agentically generated opportunities be assessed, given that true novelty and eventual impact are, by definition, only knowable ex post?
 
----
+- **Theoretical**: How do agentic processes relate to, extend, or challenge existing theories of technological change, knowledge recombination, and opportunity recognition developed in innovation studies and entrepreneurship research?
 
-## 5 State of the Field
+- **Practical**: Under what conditions do organizations adopt, trust, and derive strategic value from agentic TOD outputs, and what governance mechanisms are required to mitigate risks of bias, hallucination, or over-reliance?
 
-Technology Opportunity Discovery is an interdisciplinary domain at the intersection of innovation management, scientometrics, technology forecasting, and computer science. This section reviews its evolution, major research streams, dominant theories, methodologies, and acknowledged limitations, providing a foundation for the proposed research.
+The research problem, in short, is to move from ad-hoc application of increasingly powerful AI tools to a systematic, theoretically grounded, and methodologically rigorous investigation of agentic TOD as a socio-technical practice.
 
-## 6 Evolution of TOD Research
+# 4. State of the Field
 
-TOD’s intellectual roots can be traced to technology forecasting and assessment in the 1960s and 1970s, but the modern field crystallized in the 1990s with the advent of large-scale bibliographic databases and the formalization of “technology opportunities analysis” (Porter & Detampel, 1995). Early work emphasized the use of publication and patent data to map technology landscapes and detect emerging topics. The 2000s witnessed a surge in network-based methods: co-citation and co-word analysis became standard, and semantic approaches such as Subject-Action-Object (SAO) parsing enabled structured representation of technology functions (Yoon & Park, 2005; Choi et al., 2012). During the same period, technology roadmapping and scenario planning integrated expert judgment with quantitative data (Daim & Oliver, 2008).
+Technology Opportunity Discovery has evolved through several overlapping phases over the past three decades, documented primarily in the journal *Technological Forecasting and Social Change* and in the scientometrics literature.
 
-In the 2010s, machine learning-particularly topic modeling (Latent Dirichlet Allocation), clustering, and anomaly detection-was widely adopted. Scholars began framing TOD as a problem of identifying “white spaces,” “technology vacuums,” or “weak signals” in large innovation datasets (Lee et al., 2009; Kim et al., 2016). The rise of graph databases and link prediction algorithms further enabled the discovery of missing links between technologies, suggesting recombinant opportunities (Jee et al., 2022). More recently, deep learning methods and transformer-based language models have been applied to patent classification, novelty assessment, and technology trend detection, yielding incremental performance gains (Arts et al., 2018; Kang et al., 2021).
+Early work emphasized expert-intensive methods (Delphi, technology roadmapping) and relatively simple quantitative overlays such as keyword co-occurrence or patent classification statistics. A significant stream, associated particularly with Korean researchers including Janghyeok Yoon and colleagues, developed function-based and morphology-analysis approaches. Yoon et al. (2015) proposed a function-based TOD framework that structures information extracted from a firm’s existing technology portfolios (products, technologies, and the functions they perform) and identifies opportunities through systematic extension or recombination of those functions. This work operationalized the recombination premise that new inventions arise from novel combinations of known components and provided a capability-centric rather than purely technology-centric view.
 
-Throughout this evolution, the field has maintained a conceptual continuity: TOD is treated as a *information retrieval and pattern recognition* problem, where the goal is to surface signals that analysts may overlook. The cognitive processes of hypothesis generation, evaluation, and synthesis remain exclusively human prerogatives.
+Parallel developments in scientometrics and network science produced citation-network analysis, co-classification mapping, and generative topographic mapping (GTM) to visualize technological spaces and identify vacant or outlier regions (Kajikawa and colleagues; Son et al.). Outlier detection methods flagged patents whose technological profiles deviated markedly from existing clusters, offering candidates for radical or peripheral opportunities (Kim et al.; Lee et al.).
 
-## 7 Major Research Streams
+Text-mining and topic-modeling approaches scaled analysis to larger corpora. Biterm Topic Models and, later, BERTopic-style embeddings enabled finer-grained thematic decomposition. SAO (Subject-Action-Object) structures extracted from patent claims and abstracts supported semantic similarity and morphological analysis. Knowledge-graph constructions linked entities, functions, and applications, enabling link-prediction or completion tasks framed as opportunity identification (Lee et al., 2022).
 
-Current TOD literature can be organized into four major streams:
+More recent contributions integrate deep learning directly. Lee, Kim, Kim, and Lee (2022) proposed a TOD framework combining deep-learning-based text mining with knowledge-graph construction and inference, moving beyond purely statistical or embedding-based methods toward structured reasoning over extracted relations. Concurrently, prescriptive and generative approaches have appeared: DiTTO-LLM (Seo, Kim, & Lee, 2025) fine-tunes LLMs for patent classification and topic extraction, then employs chat-based prompting to name topics and surface time-series growth opportunities in the AI domain; Yoo, Hwang, and Lee (2026) present an LLM-based framework for narrating promising technology concepts, shifting output from ranked lists or maps toward coherent, human-readable opportunity descriptions.
 
-**Bibliometric and Scientometric TOD.** This stream uses publication and citation data to map knowledge structures and detect emerging research fronts. Methods include co-citation analysis, bibliographic coupling, and science mapping (Boyack & Klavans, 2010). Foundational contributions have established robust indicators of research emergence and have been applied to fields like synthetic biology, nanotechnology, and artificial intelligence.
+Across this literature, several patterns are evident. First, the dominant data substrate remains patents, supplemented by scientific publications; market signals (trademarks, news, job postings, commercial databases) appear less frequently and usually in hybrid studies. Second, theoretical grounding most often invokes knowledge recombination, technological convergence or divergence, and the identification of vacancies or outliers. Third, evaluation typically relies on ex-post recovery of known opportunities, expert rating of generated candidates, or case studies in specific sectors; forward-looking validation remains inherently difficult. Fourth, human expertise continues to play a central role in interpretation, filtering, and strategic translation—even in highly automated pipelines.
 
-**Patent-Based TOD.** Patents are a privileged data source for TOD due to their structured metadata, classification codes, and rich textual content. Research has developed techniques for patent landscaping, technology-function matrices, and gap analysis (Yoon & Kim, 2012; Park et al., 2013). Key datasets include USPTO, EPO, WIPO, and commercial sources such as Derwent Innovation. Evaluation often relies on retrospective validation, forecasting known technology convergences from earlier time windows.
+The most recent LLM-infused work represents a qualitative step: outputs are more narrative, more immediately usable by non-specialists, and capable of incorporating temporal dynamics and cross-topic relationships in a single generative pass. However, these systems are still largely non-agentic: they execute fixed pipelines or single-turn prompting rather than maintaining goals, iterating on intermediate results, invoking external tools adaptively, or engaging in multi-agent deliberation. The transition from “LLM-augmented TOD” to “agentic TOD” remains largely unexplored in the scholarly literature.
 
-**Semantic and NLP-Based TOD.** This stream exploits unstructured text to extract technological concepts, relationships, and trends. SAO parsing, word embedding, and transformer models have enabled fine-grained representation of technological meaning. Studies have demonstrated the ability to detect novel technology pairs, identify emerging application domains, and even recommend R&D partners (Lee et al., 2015; Kim & Park, 2020).
+# 5. Research Gap
 
-**Expert-Centric and Hybrid TOD.** Recognizing the limits of purely computational approaches, a significant body of work integrates expert judgment through Delphi methods, roadmapping workshops, and participatory scenario exercises. Hybrid systems combine algorithmic filtering with expert review to increase relevance and reduce false positives (Schoemaker et al., 2018). These approaches acknowledge that opportunity valuation remains deeply contextual and tacit.
+The gap is both theoretical and methodological. Theoretically, the field lacks frameworks that treat artificial agency as an endogenous component of the discovery process rather than an external computational aid. We do not yet have well-specified accounts of how different agent architectures mediate between raw technical signals and recognized opportunities, nor how agency interacts with established constructs such as absorptive capacity, technological paradigms, or entrepreneurial alertness. Methodologically, shared benchmarks, standardized protocols for comparative evaluation of agentic versus non-agentic systems, and evidence on the performance characteristics (novelty, feasibility, actionability, robustness to domain shift) of agentic approaches are limited. Without such infrastructure, research risks remaining a series of one-off demonstrations rather than a progressive research program.
 
-## 8 Dominant Theories, Methodologies, and Datasets
+# 6. Research Objectives
 
-The theoretical foundations of TOD are eclectic. They include evolutionary economics and recombinant innovation theory (Fleming, 2001), which explains why novel combinations of existing technologies generate breakthrough opportunities; the information processing view of organizations, which frames TOD as a problem of attention allocation in complex environments (Ocasio, 1997); and search theory in behavioral strategy (Levinthal & March, 1993), which distinguishes local from distant search. Entrepreneurial opportunity recognition theories, particularly Kirzner’s alertness and Shane’s individual-opportunity nexus, are invoked to explain why some actors identify opportunities that others miss (Shane, 2000). However, these theories were formulated with human actors in mind and do not account for machine agency.
+The program pursues four interlocking objectives:
 
-Methodologically, TOD relies on a mix of quantitative, qualitative, and design science approaches. The quantitative core involves data mining, network analysis, time-series modeling, and machine learning. Qualitative methods include case studies, expert panels, and Delphi. Design science is occasionally used to develop novel TOD tools and evaluate their utility (Hevner et al., 2004). Major datasets include the Web of Science, Scopus, USPTO PatentsView, PATSTAT, arXiv, and commercial databases like Reaxys and Dimensions. Evaluation is typically performed through case studies, retrospective prediction tasks, or user satisfaction surveys, with limited use of standardized benchmarks.
+1. To develop and formalize a conceptual framework for Agentic Technology Opportunity Discovery that integrates insights from innovation studies, scientometrics, and contemporary AI agent research.
 
-## 9 Limitations and Unresolved Problems
+2. To design, implement, and open-source prototype agentic TOD systems embodying the framework and to subject them to rigorous comparative evaluation.
 
-Despite its maturity, TOD suffers from several unresolved limitations that the current literature explicitly acknowledges:
+3. To advance evaluation theory and practice for forward-looking discovery tasks, including new metrics, benchmark construction methods, and protocols for expert and longitudinal validation.
 
-- **Passivity:** Most methods rely on historical data and cannot actively probe the technology space. They surface patterns but do not generate novel, counterfactual hypotheses.
-- **Evaluation deficit:** There is no agreed-upon ground truth for technology opportunities, making systematic comparison of methods difficult. Retrospective validation can be biased and is often domain-specific.
-- **Cognitive bottleneck:** Expert judgment remains essential for interpreting output, but cognitive biases (confirmation, availability, anchoring) are well-known to distort opportunity assessment (Barnes, 1984).
-- **Scalability vs. depth trade-off:** Large-scale computational analyses sacrifice contextual nuance, while deep qualitative work cannot cover broad technology landscapes.
-- **Limited reasoning:** Current TOD tools lack the ability to reason about feasibility, causal mechanisms, or contradictory evidence, which human experts do intuitively.
-- **Integration gap:** There is no coherent framework that integrates computational signals, expert reasoning, and autonomous exploration into a unified discovery process.
+4. To generate empirical and theoretical insights into the conditions under which agentic approaches outperform, complement, or transform existing TOD practices, and into the organizational and governance requirements for their effective deployment.
 
-These limitations collectively point to an opportunity for a paradigm shift-one that the agentic AI era makes feasible for the first time.
+# 7. Research Questions
 
----
+The following six questions structure the empirical and theoretical work:
 
-## 10 Research Gap
+RQ1. How can agentic architectures be systematically designed for TOD, incorporating tool orchestration, multi-agent specialization, memory mechanisms, and reflection loops while preserving traceability and controllability?
 
-The review above reveals a clear gap. On the one hand, the TOD field has reached a plateau of incremental refinement: newer language models and graph algorithms yield modest improvements on familiar tasks, but the fundamental discovery process remains human-driven and tool-supported. On the other hand, the agentic AI community has demonstrated autonomous systems capable of open-ended exploration, but these have not been systematically studied in the context of technology opportunity discovery or informed by the theories and evaluation criteria of innovation management. No existing research:
+RQ2. To what extent, and along which performance dimensions (novelty, feasibility, actionability, evidence strength, efficiency), do multi-agent agentic systems outperform single-LLM pipelines, traditional computational TOD methods, and expert-only processes?
 
-1.  Formulates a theoretically grounded account of TOD as an agentic reasoning task.
-2.  Develops an architectural and conceptual model of how autonomous AI agents, retrieval systems, multi-agent deliberation, and human interaction can be integrated into a coherent TOD process.
-3.  Empirically compares agentic TOD approaches against established bibliometric, patent-based, and hybrid benchmarks using rigorous, reproducible metrics aligned with innovation theory.
-4.  Examines how the division of cognitive labor between human experts and AI agents affects the quality, novelty, and feasibility of discovered opportunities.
+RQ3. Which cognitive and computational mechanisms enabled by agentic systems—analogical reasoning across distant domains, abductive hypothesis generation, iterative self-critique, or dynamic knowledge-graph updating—account for observed performance differences, and how can these mechanisms be isolated and measured?
 
-This gap is not merely technical but conceptual. It concerns whether agentic AI enables a *qualitatively different mode of discovery*-one characterized by active hypothesis formation, recursive evidence-seeking, and internal critical discourse-that cannot be reduced to improved search or classification. The proposed research program is designed to address this gap directly.
+RQ4. How does the integration of real-time or near-real-time tool use and external signal aggregation (market news, commercial databases, regulatory signals) affect the timeliness, relevance, and de-risking of discovered opportunities relative to purely archival patent- and publication-based methods?
 
----
+RQ5. What evaluation frameworks and metrics are appropriate and defensible for assessing agentically generated opportunities, given the absence of contemporaneous ground truth and the partial unverifiability of true novelty?
 
-## 11 Research Objectives
+RQ6. How do the relative advantages of agentic TOD vary across technological domains differing in data richness, maturity stage, convergence intensity, or regulatory embeddedness?
 
-The overarching objective is to establish Agentic Technology Opportunity Discovery as a coherent research paradigm and to produce actionable knowledge for building and evaluating such systems. Specific objectives are:
+# 8. Theoretical Foundations
 
-1.  To synthesize and extend theoretical perspectives from innovation management, computational social science, and AI to explain how agentic AI alters the opportunity recognition process.
-2.  To develop an original conceptual framework that identifies the key constructs, relationships, and assumptions underlying agentic TOD.
-3.  To formulate testable propositions regarding the performance of agentic TOD systems relative to existing methods under varying conditions.
-4.  To design, implement, and evaluate a prototype agentic TOD system that operationalizes the framework in one or more technology domains.
-5.  To produce empirical evidence on the novelty, feasibility, and scientific plausibility of opportunities generated by agentic systems, using expert panels and retrospective benchmarks.
-6.  To derive design principles and practical guidelines for integrating agentic AI into real-world technology intelligence workflows.
+The proposed framework draws on four intellectual streams.
 
-These objectives are pursued through the research questions and methodology detailed below.
+From innovation studies and technology management: theories of knowledge recombination (Fleming, 2001; Weitzman), technological paradigms and trajectories (Dosi), innovation systems and functions (Bergek et al.), and the distinction between technological and application opportunities (Yoon et al., 2015). These provide the substantive constructs—functions, components, vacancies, convergence—that agentic systems must operationalize.
 
----
+From scientometrics and future-oriented technology analysis: patent-mining methodologies, emerging-technology detection techniques, and the typology of opportunity types (vacancy, convergent, emerging, customer-based) articulated by Noh and colleagues (2016). These supply both operational techniques and criteria against which new methods can be benchmarked.
 
-## 12 Research Questions
+From entrepreneurship and opportunity recognition: the distinction between opportunity discovery and creation, the role of prior knowledge and systematic search, and cognitive processes such as analogy and mental simulation (Shane & Venkataraman; Grégoire et al.). These inform hypotheses about how artificial agents might emulate or extend human opportunity-recognition capabilities.
 
-The following six research questions structure the empirical and theoretical inquiry. They are designed to be answerable within a multi-year research program and to span theory, design, and evaluation.
+From artificial intelligence and cognitive systems: architectures for tool-augmented agents (ReAct, Reflexion, multi-agent orchestration frameworks), reasoning techniques (Chain-of-Thought, Tree-of-Thoughts, self-consistency), retrieval-augmented generation, and the emerging literature on LLM-based scientific discovery and hypothesis generation. These provide the technical substrate and raise questions about verifiability, bias, and human-AI division of cognitive labor that the research must address.
 
-**RQ1:** *How does agentic AI fundamentally alter the technology opportunity discovery process, and what new discovery behaviors does it enable that are not possible with traditional bibliometric or expert-centric methods?*
+The synthesis treats TOD as a form of distributed socio-technical cognition in which artificial agents increasingly participate as first-class reasoners rather than mere feature extractors or rankers.
 
-**RQ2:** *What conceptual model best captures the interaction among autonomous AI agents, human experts, knowledge sources, and the external technology environment in the context of opportunity discovery?*
+# 9. Proposed Conceptual Framework
 
-**RQ3:** *How do multi-agent deliberation and role specialization (e.g., generator, critic, evidence seeker) affect the novelty and feasibility of discovered technology opportunities?*
+The Agentic Technology Opportunity Discovery Framework (ATODF) models TOD as an iterative, multi-phase socio-technical process augmented by artificial agency.
 
-**RQ4:** *Under what conditions does agentic TOD outperform-or underperform-established computational and expert-driven discovery approaches, as measured by metrics of technological novelty, impact potential, and practical feasibility?*
+**Core Constructs**
 
-**RQ5:** *How should the outputs of agentic TOD systems be evaluated to reflect both computational validity and real-world innovation relevance, given the absence of objective ground truth for future opportunities?*
+- *Opportunity Space*: The latent set of potential opportunities characterized by type (vacancy, recombination, convergence, application extension, customer-need alignment) and attributes (technical novelty, feasibility, market potential, strategic fit, risk profile).
 
-**RQ6:** *What are the cognitive and organizational implications of delegating opportunity hypothesis generation and partial evaluation to AI agents for human decision-makers and innovation teams?*
+- *Discovery Cycle*: A repeating loop comprising four phases—Perceive, Deliberate, Act, and Reflect—executed by one or more agents with varying degrees of autonomy.
 
----
+  - *Perceive*: Tool-augmented retrieval and structuring of heterogeneous signals (patent and publication corpora via APIs or indexed vectors; SAO/NER extraction; dynamic updating of domain-specific knowledge graphs; ingestion of market, regulatory, and commercial signals).
 
-## 13 Theoretical Foundations
+  - *Deliberate*: Multi-agent or single-agent reasoning processes that generate, critique, and refine opportunity hypotheses. Mechanisms include morphological expansion, TRIZ-inspired contradiction resolution, analogical mapping across domains, scenario simulation, multi-criteria scoring, and adversarial critique (e.g., “red-team” novelty and prior-art challenges).
 
-The proposed research integrates four theoretical domains to underpin agentic TOD.
+  - *Act*: Production of actionable artifacts—prioritized opportunity dossiers containing evidence chains, confidence assessments, validation roadmaps, and narrative explanations suitable for human decision-makers.
 
-**Recombinant Innovation and Search Theory.** Innovation is often conceptualized as the recombination of existing technological components across previously unconnected domains (Fleming, 2001; Schumpeter, 1934). The search for valuable recombinations is subject to bounded rationality, resource constraints, and cognitive biases (March & Simon, 1958). Agentic AI can expand the searchable space and apply systematic reasoning to recombination candidates, potentially mitigating human search biases toward local or familiar combinations.
+  - *Reflect*: Meta-level processes that audit reasoning traces for bias or hallucination, incorporate external feedback (expert ratings, realized outcomes), update internal models or retrieval indices, and adjust future search or deliberation strategies.
 
-**Theory of Entrepreneurial Opportunity Recognition.** This literature distinguishes between opportunity discovery (recognizing pre-existing but unnoticed opportunities) and opportunity creation (enacting opportunities through action) (Alvarez & Barney, 2007). TOD primarily concerns discovery. Kirzner’s notion of entrepreneurial alertness posits that some individuals are better at noticing market and technological mismatches (Kirzner, 1997). Agentic AI may function as an *artificial alertness* system, continuously scanning and hypothesizing, but its effectiveness depends on the quality of its internal models and its interaction with human evaluators.
+- *Agency Profile*: A multi-dimensional characterization of the artificial agent(s) along axes of autonomy (scripted pipeline vs. goal-directed planning with branching), reasoning depth and breadth, tool-integration fidelity, grounding/verifiability mechanisms, memory persistence, and human-in-the-loop configuration (from fully autonomous to tightly supervised).
 
-**Bounded Rationality and Distributed Cognition.** Simon’s bounded rationality recognizes that human decision-makers satisfice due to cognitive limits. Distributed cognition theory (Hutchins, 1995) suggests that cognitive processes are distributed across people and artifacts. Agentic TOD systems represent a new cognitive artifact that offloads and transforms aspects of hypothesis generation and evaluation, potentially enabling a more exhaustive and less biased search than unaided human cognition.
+- *Contextual Moderators*: Domain characteristics (data density and quality, technological maturity, convergence potential), organizational context (existing technological portfolio, absorptive capacity, decision-making routines), and environmental factors (regulatory uncertainty, competitive intensity).
 
-**Agentic AI and Autonomous Reasoning.** The technical foundation lies in recent advances: large language models with reasoning capabilities, retrieval-augmented generation (Lewis et al., 2020), tool-augmented agents (Schick et al., 2023), and multi-agent systems that can engage in structured debate or role-playing (Park et al., 2023). These systems exhibit emergent planning, reflection, and self-critique. The theoretical import is that they move AI from a passive repository of pretrained knowledge to an active explorer of external information landscapes-a shift that aligns with the requirements of opportunity discovery.
+**Propositions** (selected)
 
-These foundations inform the conceptual framework and propositions.
+P1. Agentic systems employing explicit multi-perspective deliberation (technical, market, strategic, ethical) will generate opportunities rated higher on balanced actionability and lower on unrecognized risk dimensions than single-perspective or non-agentic baselines.
 
----
+P2. Dynamic tool use and memory mechanisms will increase the proportion of opportunities that incorporate timely external signals (emerging applications, regulatory shifts, funding flows) relative to purely archival methods, without proportional increases in hallucination when grounding techniques are applied.
 
-## 14 Proposed Conceptual Framework
+P3. The explicability affordances of agentic systems (inspectable reasoning traces, cited evidence, confidence calibration) will increase decision-maker trust and adoption intention compared with black-box predictive models, conditional on appropriate interface design.
 
-The conceptual framework, depicted notionally below (and to be fully diagrammed in dissertation presentation), identifies the core constructs and relationships of Agentic Technology Opportunity Discovery.
+P4. Feedback loops from validation outcomes or expert critique will produce measurable improvements in subsequent discovery performance (learning curve), creating a data and model flywheel unavailable to static pipelines.
 
-**Core Constructs:**
+P5. Performance advantages of agentic over non-agentic methods will be largest in domains characterized by high convergence potential and sparse or rapidly changing market signals, and smaller in mature, well-mapped technological spaces where traditional vacancy or citation methods already perform adequately.
 
-- *Agentic Discovery Engine (ADE):* A system comprising one or more AI agents capable of goal-oriented behavior, including hypothesis generation, information retrieval, analysis, critique, and synthesis. The ADE is characterized by its autonomy, tool-use repertoire, reasoning depth, and multi-agent configuration.
-- *Technology Opportunity Space (TOS):* The set of all possible technological configurations-combinations of functions, components, scientific principles, and application domains-that could in principle be exploited. The TOS is latent, infinite, and only partially represented in existing knowledge artifacts.
-- *Knowledge Corpus:* The collection of structured and unstructured data sources representing the current state of technology and science: patents, publications, technical standards, market reports, startup databases, code repositories. This corpus is dynamic and heterogeneous.
-- *Opportunity Hypothesis:* A structured conjecture linking a technological configuration to a potential value proposition or problem. It includes a description of the technology combination, underlying mechanisms, potential applications, and supporting or challenging evidence.
-- *Evidence Base:* The set of retrieved, extracted, and reasoned-about facts, claims, and data that bear on the plausibility of an opportunity hypothesis.
-- *Human-Agent Collaboration Interface:* The mechanisms by which human experts interact with the ADE-setting goals, providing feedback, injecting tacit knowledge, and making final judgments.
-- *External Environment:* Market forces, regulatory regimes, scientific breakthroughs, and competitor actions that shape the viability of opportunities over time.
+The framework is intentionally architecture-agnostic at the conceptual level while providing clear guidance for operationalization in specific agent implementations.
 
-**Core Relationships and Propositions:**
+# 10. Research Methodology
 
-The framework proposes that the ADE actively explores the Technology Opportunity Space by formulating *Opportunity Hypotheses*, then iteratively gathering and evaluating *Evidence* from the *Knowledge Corpus*. Multi-agent deliberation amplifies critique and reduces premature convergence. Human experts interact through the *Collaboration Interface*, steering, filtering, and contextualizing outputs. The quality and nature of discovered opportunities are a function of ADE capabilities, the richness of the Knowledge Corpus, and the depth of human-agent collaboration.
+The program adopts a Design Science Research (DSR) orientation (Hevner et al.; Peffers et al.) situated within an interdisciplinary methodological tradition spanning AI, innovation studies, and computational social science. DSR is appropriate because the core contribution is an artifact—the conceptual framework instantiated in prototype systems—whose utility must be demonstrated through rigorous evaluation while simultaneously generating theoretical insight.
 
-From this, several testable propositions emerge:
+**Philosophical Stance**: Pragmatist, with critical-realist commitments to the existence of underlying mechanisms (recombination processes, cognitive biases, socio-technical adoption dynamics) that can be partially surfaced through mixed-methods inquiry.
 
-*P1:* An agentic TOD system will generate opportunity hypotheses of significantly higher *technological novelty* (measured as semantic distance to existing patented combinations) compared to a baseline latent Dirichlet allocation plus expert filtering pipeline, holding domain and corpus constant.
+**Research Design**: Sequential mixed-methods with parallel experimental and qualitative strands.
 
-*P2:* Multi-agent configurations incorporating a dedicated critic agent will produce opportunity hypotheses with higher *feasibility ratings* by domain experts than single-agent configurations, by virtue of internal filtering of implausible proposals.
+Phase 1 (Framework Refinement): Systematic literature review and synthesis; semi-structured interviews with 12–18 TOD researchers, technology intelligence practitioners, and AI-for-science researchers; iterative development of the ATODF constructs, propositions, and operational definitions.
 
-*P3:* The *perceived usefulness* of agentic TOD outputs for R&D decision-making will be positively associated with the transparency of the system’s reasoning trace (evidence provided, assumptions stated) and negatively associated with the “black-box” presentation of results.
+Phase 2 (Prototype Development): Implementation of a modular, open-source agentic TOD prototype (tentatively “ATOD-Agent”) using contemporary agent frameworks (e.g., LangGraph or equivalent). Core components: (a) multi-source retrieval layer with patent, publication, and web-signal connectors; (b) structured extraction and KG maintenance pipelines; (c) multi-agent crew with specialized roles and communication protocols; (d) reflection and logging modules for full reasoning-trace capture. The prototype will support configurable agency profiles and human-in-the-loop modes.
 
-*P4:* Human experts working with an agentic TOD system will explore a *wider range of technology subdomains* (higher search diversity) compared to experts using a standard patent analysis dashboard, due to the system’s active proposal of distant recombinations.
+Phase 3 (Comparative Evaluation): Controlled experiments comparing the prototype against three baselines: (i) re-implemented or representative traditional computational method (e.g., function-based or DL-KG pipeline); (ii) strong single-LLM RAG + prompting baseline; (iii) expert-panel simulation or real expert ratings where feasible. Experiments conducted on benchmark corpora in at least three domains chosen for diversity (e.g., artificial intelligence and machine learning; renewable energy storage and conversion; synthetic biology or advanced materials). 
 
-These propositions directly address the research questions and can be empirically tested using the methodology below.
+**Data Sources**: USPTO and EPO patent data (via PatentsView or bulk downloads, with appropriate sampling or indexing); Web of Science / Scopus / arXiv for scientific literature; supplementary commercial and news signals via tool APIs (with rate-limit and cost controls). Historical hold-out sets constructed for ex-post validation where “known” opportunities emerged after a cutoff date.
 
----
+**Metrics and Analysis**:
 
-## 15 Research Methodology
+- Quantitative performance: expert-rated novelty, technical feasibility, commercial actionability, evidence strength, and overall opportunity quality (multi-item scales with inter-rater reliability assessment); recall of historically validated opportunities; efficiency (wall-clock time, token/cost expenditure, human attention required).
 
-A multi-method research design is proposed, integrating design science, controlled experimentation, and qualitative evaluation. This approach is consistent with interdisciplinary research at the intersection of AI, innovation management, and computational social science.
+- Qualitative: thematic analysis of reasoning traces and generated artifacts; comparison of opportunity typologies surfaced by different methods; decision-quality studies in which managers or analysts use outputs to allocate hypothetical R&D or investment resources.
 
-## 16 Research Paradigm and Philosophical Stance
+- Statistical: appropriate parametric or non-parametric tests for metric comparisons; regression or factorial designs to isolate effects of agency dimensions (e.g., multi- vs. single-agent, tool-use depth); longitudinal tracking where possible for realized impact signals (citations, funding, product launches).
 
-The study adopts a pragmatist epistemology with elements of critical realism. Pragmatism permits the mixing of methods to address practical problems of discovery system effectiveness and design (Creswell & Plano Clark, 2017). Critical realism acknowledges that technology opportunities have real, underlying potential independent of our current knowledge but that our access to them is mediated through data, models, and interpretation (Bhaskar, 1975). This stance justifies constructing and evaluating artifacts (agentic systems) as a way to probe the latent structure of opportunity spaces.
+**Validity Considerations**: Internal validity addressed through randomized prompt/seed controls, ablation studies on agent components, and standardized evaluation rubrics. External validity pursued via replication across domains and sensitivity analyses. Construct validity supported by expert validation of rubrics and operational definitions. Conclusion validity strengthened by mixed-methods convergence and, where applicable, statistical power considerations. Ecological validity enhanced by realistic task framing and interface designs in human-subject components.
 
-## 17 Research Design
+**Reproducibility and Replicability**: Full open-sourcing of prototype code, evaluation harnesses, prompt templates, and (where legally and ethically permissible) derived datasets or indices. Containerized execution environments; detailed methodological appendices; documentation of key experiments where appropriate.
 
-The research unfolds in three phases:
+**Ethical Considerations**: Explicit disclosure of AI-generated content in any artifacts used in decision-support studies; attention to data provenance and potential biases in training corpora or retrieval indices; consideration of dual-use implications and responsible innovation guardrails within the framework itself (e.g., agents prompted to surface societal or environmental risk dimensions of opportunities).
 
-**Phase 1: Framework Development and System Design.** Drawing on the theoretical foundations, a conceptual architecture is refined through iterative engagement with the literature and expert feedback. A prototype ADE is then built using state-of-the-art LLMs (e.g., GPT-4, Claude), retrieval APIs, and multi-agent orchestration frameworks (LangChain, AutoGen). The system is instantiated in a well-defined technology domain, such as energy storage or smart materials, to ensure tractable evaluation.
+**Anticipated Limitations**: Dependence on the current frontier of LLM capabilities and associated costs (mitigated by multi-model strategies and open-source alternatives); inherent difficulty of establishing contemporaneous ground truth for novelty; computational and API-cost constraints on full-corpus experiments (addressed via stratified sampling and focused domain studies); potential rapid obsolescence of specific architectural choices (addressed by emphasis on principles and modular design).
 
-**Phase 2: Controlled Comparative Experiments.** The core empirical test compares the ADE against three baseline conditions, all operating on the same time-sliced corpus (e.g., patents and papers up to 2018 to allow retrospective validation against developments 2019-2024):
-- *Baseline 1:* Traditional bibliometric TOD pipeline (co-citation clustering + LDA topic detection + expert filtering).
-- *Baseline 2:* Semantic patent-based TOD (SAO extraction + link prediction for white spaces).
-- *Baseline 3:* Standard LLM-based trend analysis without agentic capabilities (single-prompt extraction of trends from corpus summary).
-- *Experimental condition:* Full agentic TOD system with goal specification, multi-agent deliberation, tool use, and recursive refinement.
+# 11. Evaluation Strategy
 
-**Phase 3: Expert Evaluation and Field Study.** Discovered opportunity hypotheses from all conditions are anonymized and presented to independent domain experts (academic researchers, corporate R&D strategists) for rating on novelty, feasibility, potential impact, and unexpectedness. Additionally, a subset of practitioners is invited to use the prototype in a structured task to observe human-agent interaction patterns and gather qualitative feedback.
+Evaluation is conceived as multi-level and ongoing rather than a single terminal test.
 
-## 18 Units of Analysis
+- *Artifact Evaluation* (DSR criteria): Utility, efficacy, and efficiency of the prototype relative to baselines, assessed through the metrics above.
 
-The primary unit of analysis is the *opportunity hypothesis*-a generated candidate comprising a technology description, evidence, and rationale. Secondary units include the *discovery session* (a complete run of a system with a given goal) and the *expert evaluation rating*.
+- *Theoretical Evaluation*: Degree to which empirical findings support, refute, or refine the propositions; emergence of new constructs or boundary conditions.
 
-## 19 Operationalization of Constructs
+- *Practical Evaluation*: Pilot deployments or structured walkthroughs with technology intelligence units or innovation teams; measurement of adoption barriers, trust calibration, and integration into existing workflows.
 
-- *Technological novelty:* measured via (i) semantic distance (cosine) between the proposed technology combination embedding and the centroid of existing patent embeddings in the domain; (ii) proportion of expert raters indicating “I have never encountered this combination before.”
-- *Feasibility:* expert rating scale (1-5) anchored with detailed rubrics concerning scientific plausibility, technical readiness, and resource requirements.
-- *Potential impact:* expert rating on a scale adapted from established technology assessment frameworks, considering market size, sustainability, and transformative potential.
-- *Search diversity:* entropy of technology subclasses or IPC codes covered by generated hypotheses within a session.
-- *Transparency of reasoning:* measured via structured analysis of system logs (presence of explicit evidence links, assumption statements, and counter-argument traces).
+- *Longitudinal Component* (where timeline permits): Tracking of a subset of agentically discovered opportunities for subsequent real-world signals (patent citations, academic uptake, commercial development, policy attention). While necessarily incomplete, such tracking provides the strongest available external corroboration.
 
-## 20 Data Sources and Collection
+Success thresholds should be defined ex ante using appropriate evaluation criteria (e.g., mean expert-rated actionability improvement of at least 0.5 points on a 5-point scale, or equivalent performance at substantially lower human time cost). Negative or null results on specific propositions will be treated as equally valuable contributions, informing boundary conditions and future design iterations.
 
-Corpus construction will use USPTO PatentsView, PATSTAT, Web of Science, and arXiv for the chosen domain(s), limited to a historical window. Additional sources such as Crunchbase for startup activity and news APIs may supplement for contextual relevance. Expert data will be collected via structured online surveys and semi-structured interviews with recruited domain specialists (target N=15–20 per evaluation round).
+# 12. Expected Contributions to Theory
 
-## 21 Experimental Procedures
+The program will contribute to theory in three primary ways. First, it will articulate and test a new conceptual model that positions artificial agency as an active participant in technological opportunity recognition, thereby extending recombination, convergence, and opportunity-recognition theories into the socio-technical-AI regime. Second, it will develop a typology of discovery mechanisms differentiated by the form and degree of agency involved, clarifying which classes of opportunity (e.g., distant analogical recombinations, rapidly evolving application spaces) are disproportionately enabled or enhanced by agentic processes. Third, it will generate propositions and empirical evidence concerning the organizational and cognitive conditions under which human–agent ensembles outperform either alone, contributing to broader debates on human-AI collaboration in knowledge work and strategic decision-making.
 
-Each system condition will be run with identical high-level discovery goals (e.g., “Identify novel, feasible energy storage technologies that combine mechanical and electrochemical principles”). The agentic system will be allowed a fixed compute/token budget per session to ensure comparability. All outputs will be logged. Human-in-the-loop steps for baselines will follow standard protocols documented in TOD literature (e.g., expert filtering of topic model output). The full pipeline will be containerized to support reproducibility.
+# 13. Expected Contributions to Methodology
 
-## 22 Evaluation Metrics and Analysis
+Methodological contributions include: (a) an operationalizable conceptual framework and associated measurement rubrics that can be adopted or adapted by subsequent researchers; (b) open-source prototype implementations and evaluation harnesses that lower the barrier to rigorous comparative work; (c) protocols for constructing TOD-specific benchmarks that balance ex-post recoverability with forward-looking realism; and (d) guidance on mixed-methods evaluation designs suitable for generative and agentic AI systems in innovation contexts, including strategies for handling partial unverifiability and for integrating reasoning-trace analysis with outcome metrics.
 
-- **Effectiveness metrics:** Mean novelty, feasibility, and impact ratings across conditions, compared using mixed-effects models with raters as random intercepts.
-- **Novelty beyond baseline:** Test of whether agentic hypotheses fall into less densely populated regions of the technology space, using patent landscape density measures.
-- **Process metrics:** Number of distinct hypotheses generated, evidence sources consulted, internal critique cycles (for agentic condition), and expert time required.
-- **Qualitative analysis:** Thematic coding of expert interviews and open-ended survey responses to understand perceived strengths, weaknesses, and trust dynamics.
+# 14. Expected Contributions to Practice
 
-## 23 Validity Considerations
+On the practice side, the research will deliver: validated prototype tools that organizations can deploy or adapt for continuous technology intelligence; evidence-based guidelines for configuring agency levels, human oversight, and integration with existing technology roadmapping or stage-gate processes; and a clearer understanding of the trust, interpretability, and governance requirements that determine whether advanced AI capabilities are actually used in high-stakes opportunity decisions. Over the longer term, successful outcomes could shift the default mode of technology foresight from episodic, expert-heavy exercises to continuous, evidence-rich, agent-augmented monitoring and narration—potentially improving both the speed and quality of strategic response to technological change.
 
-- *Internal validity:* Controlled experimental design with fixed corpus and tasks mitigates confounding. Random assignment of raters is not fully possible in expert panels, but within-subject rating of anonymized hypotheses across conditions reduces bias.
-- *External validity:* A single domain test limits generalizability; the plan includes replication in a second domain (e.g., biomedical devices) as a future step, but initial findings must be interpreted cautiously.
-- *Construct validity:* Use of multiple measures per construct, including both computational and expert-based indicators, strengthens construct validity.
-- *Conclusion validity:* Appropriate statistical tests will be chosen based on data distributions, with corrections for multiple comparisons.
+# 15. Limitations
 
-## 24 Reproducibility and Ethical Considerations
+Any single research program necessarily operates within constraints. The proposed agenda is scoped to public or commercially accessible technical and market signals; it does not address classified or proprietary internal data environments. Evaluation of true long-term impact is necessarily truncated by project timelines. The rapid evolution of foundation models and agent tooling means that specific implementation choices will date quickly; the emphasis on modular design and principle-level contributions is intended to mitigate this. Generalizability beyond the studied domains cannot be assumed a priori and will require subsequent replication. Finally, the program focuses on discovery processes rather than on the downstream organizational or policy decisions that determine whether discovered opportunities are acted upon; complementary research on adoption, portfolio decision-making, and implementation will be required to realize full value.
 
-All code, prompts, corpus snapshots, and experimental protocols will be shared in a public repository to enable replication. Ethical considerations include transparency about the AI system’s role in idea generation, avoiding inflated claims of AI “creativity,” and ensuring that expert evaluators are not misled about the provenance of hypotheses. The research does not involve sensitive personal data and will receive IRB exemption or approval.
+# 16. Future Research Directions
 
-## 25 Anticipated Limitations
+Several extensions naturally follow from the core program. One is the incorporation of multi-modal perception—analysis of patent drawings, prototype images, experimental data visualizations, or physical artifact descriptions—via vision-language agents. Another is tighter integration with simulation environments or even automated experimentation platforms, enabling agents not only to propose opportunities but to design and, where feasible, execute low-cost validation experiments. A third is the development of personalized or organization-specific TOD agents that internalize a firm’s existing technological portfolio, strategic priorities, and risk tolerances (extending the capability-centric tradition of Yoon et al.). Fourth, comparative and cross-cultural studies could examine how agentic TOD performs or is governed in different national or sectoral innovation systems. Fifth, dedicated attention to the ethics and governance of autonomous discovery—including bias auditing, dual-use screening, and mechanisms for maintaining meaningful human control—will grow in importance as capabilities advance. Finally, the framework and prototypes developed here can serve as a foundation for research on agentic approaches to adjacent foresight tasks: technology roadmapping, competitive intelligence, and mission-oriented innovation policy design.
 
-The prototype may be constrained by current LLM limitations, including hallucination and knowledge cutoffs, which will be partially mitigated by retrieval and tool use. Expert panel size may limit statistical power; the study will emphasize effect sizes and qualitative insights. The fast-moving nature of AI capabilities means that findings are a snapshot of a specific technological moment; however, the design principles and theoretical contributions are intended to be durable.
+# 17. References
 
----
+Bergek, A., Jacobsson, S., Carlsson, B., Lindmark, S., & Rickne, A. (2008). Analyzing the functional dynamics of technological innovation systems: A scheme of analysis. *Research Policy, 37*(3), 407–429.
 
-## 26 Expected Contributions
+Dosi, G. (1982). Technological paradigms and technological trajectories: A suggested interpretation of the determinants and directions of technical change. *Research Policy, 11*(3), 147–162.
 
-The research program is expected to make contributions at three levels.
+Fleming, L. (2001). Recombinant uncertainty in technological search. *Management Science, 47*(1), 117–132.
 
-**Contributions to Theory.** It will extend the theory of technology opportunity recognition by incorporating machine agency and autonomous reasoning. The proposed framework redefines discovery as an active, hypothesis-driven process co-produced by human and artificial agents. It introduces concepts such as “artificial alertness” and “algorithmic recombination search” that bridge innovation management and AI. The empirical findings will illuminate the conditions under which agentic AI expands the effective search horizon and where human judgment remains indispensable.
+Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly, 28*(1), 75–105.
 
-**Contributions to Methodology.** The research will deliver a replicable methodology for evaluating TOD systems using a combination of computational metrics and structured expert assessment. This addresses the longstanding evaluation deficit in the field. The open-source prototype and experimental benchmarks can serve as a community resource, analogous to how ImageNet galvanized computer vision, to accelerate rigorous progress in technology intelligence.
+Kajikawa, Y., & Takeda, Y. (2008). Structure of research on biomass and biofuels: A citation-based approach. *Technological Forecasting and Social Change, 75*(9), 1349–1359.
 
-**Contributions to Practice.** For R&D managers, corporate strategists, and technology intelligence professionals, the research will produce design principles for building and deploying agentic TOD tools. It will clarify the division of labor between AI and human analysts, recommend interaction paradigms that foster trust and effective use, and highlight domains where agentic discovery offers the greatest leverage. Policymakers and research funding agencies may also benefit from more systematic early identification of high-potential technology directions.
+Kim, B., Gazzola, G., Lee, J. M., Kim, J., & Yoon, J. (2017). Two-phase edge outlier detection method for technology opportunity discovery. *Scientometrics, 113*(1), 1–16.
 
----
+Lee, M. H., Kim, S., Kim, H., & Lee, J. (2022). Technology opportunity discovery using deep learning-based text mining and a knowledge graph. *Technological Forecasting and Social Change, 180*, 121678.
 
-## 27 Limitations and Future Research Directions
+Noh, H., Song, Y., & Lee, S. (2016). Identifying emerging core technologies and key players using patent co-classification network analysis. *Technological Forecasting and Social Change, 111*, 1–13. (Note: typology reference inferred from secondary citations; exact classification paper confirmed via literature synthesis.)
 
-While the proposed research is ambitious, it has inherent limitations. The prototype’s performance is contingent on the current state of LLM technology; as models improve, some specific findings may shift. However, the conceptual framework is designed to be independent of any single model architecture. The initial focus on one or two technology domains constrains generalizability, a limitation that subsequent studies should address by replicating the methodology across diverse fields (e.g., software, agriculture, climate technology). The research does not directly measure downstream innovation outcomes (e.g., patents filed, products launched) because of the long latency between opportunity identification and commercial realization; longitudinal follow-up studies would be valuable.
+Park, I., & Yoon, B. (2018). Technological opportunity discovery for technological convergence based on the prediction of technology knowledge flow in a citation network. *Technological Forecasting and Social Change, 134*, 1–13. (PMC7172972 reference)
 
-Future work could explore dynamic agentic TOD, where the AI continuously monitors the technology landscape and autonomously updates opportunity assessments in near-real-time. Another direction is the integration of causal reasoning and scientific simulation tools, enabling agents to not only identify combinations but also predict emergent properties. The ethical and organizational implications of deploying agentic discovery systems in competitive settings also warrant sustained investigation, particularly regarding intellectual property attribution and the risk of herding behavior if multiple organizations use similar AI tools.
+Peffers, K., Tuunanen, T., Rothenberger, M. A., & Chatterjee, S. (2007). A design science research methodology for information systems research. *Journal of Management Information Systems, 24*(3), 45–77.
 
----
+Porter, A. L., & Detampel, M. J. (1995). Technology opportunities analysis. *Technological Forecasting and Social Change, 49*(3), 237–255.
 
-## 28 Conclusion
+Seo, S., Kim, W., & Lee, J. (2025). DiTTO-LLM: Framework for Discovering Topic-based Technology Opportunities via Large Language Model. *arXiv:2509.09724*.
 
-Agentic AI does not merely accelerate existing technology opportunity discovery workflows-it alters the structure of the discovery process itself. By reconfiguring TOD as a proactive, reasoning-intensive collaboration between human experts and autonomous AI agents, this research program opens a new chapter in our capacity to navigate the expanding sea of technological possibility. The prospectus has argued that the time is ripe for a systematic, theoretically grounded, and empirically rigorous investigation of this new paradigm. The proposed framework, research questions, and methodology provide a blueprint for advancing the TOD discipline at a moment of genuine intellectual transformation.
+Shane, S., & Venkataraman, S. (2000). The promise of entrepreneurship as a field of research. *Academy of Management Review, 25*(1), 217–226.
 
----
+Son, C., Suh, Y., Jeon, J., & Park, Y. (2012). Development of a GTM-based patent map for identifying patent vacuums. *Expert Systems with Applications, 39*(3), 2489–2500.
 
-## 29 References
+Weitzman, M. L. (1998). Recombinant growth. *The Quarterly Journal of Economics, 113*(2), 331–360.
 
-Alvarez, S. A., & Barney, J. B. (2007). Discovery and creation: Alternative theories of entrepreneurial action. *Strategic Entrepreneurship Journal*, 1(1-2), 11-26.
+Yoo, M., Hwang, J., & Lee, H. (2026). Prescriptive technology intelligence for technology opportunity discovery: An LLM-based automated framework for narrating promising technology concepts. *Technovation*.
 
-Arts, S., Cassiman, B., & Gomez, J. C. (2018). Text matching to measure patent similarity. *Strategic Management Journal*, 39(1), 62-84.
+Yoon, J., Park, H., Seo, W., Lee, J. M., Coh, B. Y., & Kim, J. (2015). Technology opportunity discovery (TOD) from existing technologies and products: A function-based TOD framework. *Technological Forecasting and Social Change, 100*, 153–167. https://doi.org/10.1016/j.techfore.2015.04.012
 
-Barnes, J. H. (1984). Cognitive biases and their impact on strategic planning. *Strategic Management Journal*, 5(2), 129-137.
+Yoon, B., & Park, Y. (2005). A systematic approach for identifying technology opportunities: Keyword-based morphology analysis. *Technological Forecasting and Social Change, 72*(2), 145–160.
 
-Bhaskar, R. (1975). *A Realist Theory of Science*. Leeds Books.
+Additional supporting references on agent architectures, reasoning techniques, and multi-agent systems (ReAct, Reflexion, CrewAI/LangGraph literature, MetaGPT, etc.) will be incorporated in the full dissertation or proposal bibliography as specific implementation and theoretical integration work proceeds.
 
-Boiko, D. A., MacKnight, R., & Gomes, G. (2023). Emergent autonomous scientific research capabilities of large language models. *arXiv preprint arXiv:2304.05332*.
-
-Boyack, K. W., & Klavans, R. (2010). Co-citation analysis, bibliographic coupling, and direct citation: Which citation approach represents the research front most accurately? *Journal of the American Society for Information Science and Technology*, 61(12), 2389-2404.
-
-Bran, A. M., Cox, S., Schilter, O., Baldassari, C., White, A. D., & Schwaller, P. (2024). Augmenting large language models with chemistry tools. *Nature Machine Intelligence*, 6, 1-11.
-
-Choi, S., Park, H., Kang, D., Lee, J. Y., & Kim, K. (2012). An SAO-based text mining approach to building a technology tree for technology planning. *Expert Systems with Applications*, 39(13), 11443-11455.
-
-Creswell, J. W., & Plano Clark, V. L. (2017). *Designing and Conducting Mixed Methods Research* (3rd ed.). Sage.
-
-Daim, T. U., & Oliver, T. (2008). Implementing technology roadmap process in the energy services sector: A case study of a government agency. *Technological Forecasting and Social Change*, 75(5), 687-720.
-
-Daim, T. U., Rueda, G., Martin, H., & Gerdsri, P. (2006). Forecasting emerging technologies: Use of bibliometrics and patent analysis. *Technological Forecasting and Social Change*, 73(8), 981-1012.
-
-Fleming, L. (2001). Recombinant uncertainty in technological search. *Management Science*, 47(1), 117-132.
-
-Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. *MIS Quarterly*, 28(1), 75-105.
-
-Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.
-
-Jee, S. J., Sohn, S. Y., & Lee, H. (2022). Technology opportunity discovery through link prediction in a patent citation network. *Technological Forecasting and Social Change*, 175, 121341.
-
-Kang, D., Jang, W., & Park, Y. (2021). Predicting technology convergence using BERT-based patent analysis. *Technological Forecasting and Social Change*, 165, 120544.
-
-Kim, M., & Park, Y. (2020). Detecting potential technology opportunities by using machine learning and network analysis. *Technology Analysis & Strategic Management*, 32(9), 1043-1057.
-
-Kim, G., Park, S., & Jang, D. (2016). Technology opportunity discovery under uncertainty: Integrating patent analytics and technology roadmapping. *Futures*, 83, 65-74.
-
-Kirzner, I. M. (1997). Entrepreneurial discovery and the competitive market process: An Austrian approach. *Journal of Economic Literature*, 35(1), 60-85.
-
-Lee, S., Yoon, B., & Park, Y. (2009). An approach to discovering new technology opportunities: Keyword-based patent map approach. *Technovation*, 29(6-7), 481-497.
-
-Lee, C., Kang, B., & Shin, J. (2015). Novelty-focused patent mapping for technology opportunity analysis. *Technological Forecasting and Social Change*, 90, 355-365.
-
-Levinthal, D. A., & March, J. G. (1993). The myopia of learning. *Strategic Management Journal*, 14(S2), 95-112.
-
-Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., ... & Kiela, D. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. *Advances in Neural Information Processing Systems*, 33, 9459-9474.
-
-Li, G., Hammoud, H. A. A. K., Itani, H., Khizbullin, D., & Ghanem, B. (2023). CAMEL: Communicative agents for “mind” exploration of large language model society. *arXiv preprint arXiv:2303.17760*.
-
-March, J. G., & Simon, H. A. (1958). *Organizations*. Wiley.
-
-Ocasio, W. (1997). Towards an attention-based view of the firm. *Strategic Management Journal*, 18(S1), 187-206.
-
-Park, J. S., O'Brien, J. C., Cai, C. J., Morris, M. R., Liang, P., & Bernstein, M. S. (2023). Generative agents: Interactive simulacra of human behavior. *Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology*.
-
-Park, Y., Yoon, B., & Lee, S. (2013). The idiosyncrasy and dynamism of technological innovation across industries: Patent citation analysis. *Technology in Society*, 35(3), 172-185.
-
-Porter, A. L., & Detampel, M. J. (1995). Technology opportunities analysis. *Technological Forecasting and Social Change*, 49(3), 237-255.
-
-Rotolo, D., Hicks, D., & Martin, B. R. (2015). What is an emerging technology? *Research Policy*, 44(10), 1827-1843.
-
-Schick, T., Dwivedi-Yu, J., Dessì, R., Raileanu, R., Lomeli, M., Zettlemoyer, L., ... & Scialom, T. (2023). Toolformer: Language models can teach themselves to use tools. *arXiv preprint arXiv:2302.04761*.
-
-Schoemaker, P. J. H., Heaton, S., & Teece, D. (2018). Innovation, dynamic capabilities, and leadership. *California Management Review*, 61(1), 15-42.
-
-Schumpeter, J. A. (1934). *The Theory of Economic Development*. Harvard University Press.
-
-Shane, S. (2000). Prior knowledge and the discovery of entrepreneurial opportunities. *Organization Science*, 11(4), 448-469.
-
-Taylor, R., Kardas, M., Cucurull, G., Scialom, T., Hartshorn, A., Saravia, E., ... & Stuhlmüller, A. (2022). Galactica: A large language model for science. *arXiv preprint arXiv:2211.09085*.
-
-Yoon, B., & Kim, H. (2012). Development of a technology valuation model using patent cross-impact analysis. *Technological Forecasting and Social Change*, 79(3), 570-586.
-
-Yoon, B., & Park, Y. (2005). A systematic approach for identifying technology opportunities: Keyword-based morphology analysis. *Technological Forecasting and Social Change*, 72(2), 145-160.
