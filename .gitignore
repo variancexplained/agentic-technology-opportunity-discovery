@@ -1,55 +1,23 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
+# Ignore the contents of the _site directory and other cache directories
+_site/
+.sass-cache/
 
-# Virtual envs
-.venv/
-venv/
-env/
+# Ignore the directory for local files during development
+local/
 
-# Testing
-.pytest_cache/
-.ruff_cache/
-htmlcov/
-.coverage
-.coverage.*
+# Ignore the Gemfile that is generated
+Gemfile.lock
 
-# Build artifacts
-build/
-dist/
-*.egg-info/
-*.egg
+# Ignore files created by npm
+node_modules
+package-lock.json
 
-# Jupyter
-.ipynb_checkpoints/
+# Ignore the vendor file at root level and bundle for alternative installation
+/vendor/
+.bundle/
 
-# IDE
-.idea/
+# Ignore folders related to IDEs
 .vscode/
-*.swp
-*.swo
 
-# OS
+# Ignore files created by MacOS
 .DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-.env.production
-.env.staging
-
-# Claude local overrides
-CLAUDE.local.md
-
-# Logs
-*.log
-logs/*
-!logs/.gitkeep
-
-# Data
-data/*
-!data/.gitkeep
